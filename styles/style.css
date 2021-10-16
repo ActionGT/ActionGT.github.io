@@ -1,0 +1,103 @@
+
+
+.Header {
+text-shadow: 1px 1px #4a4a4a;
+}
+h1,
+h2 {
+color: #959799;
+font-family: Georgia;
+}
+
+body {
+background: beige;
+text-align: center;
+}
+#italics {
+font-style: italic;
+color: blue;
+}
+span {
+text-decoration: underline;
+font-weight: bold;
+}
+#keyskills {
+
+display: flex;
+flex-direction:column;
+justify-content: center;
+list-style-type: upper-alpha;
+margin-top: 1em;
+margin-bottom: 1em;
+margin-left: 0;
+margin-right: 0;
+padding-left: 40px;
+color: red;
+}
+.photo1{
+  
+}
+/* #interests {
+
+color:red;
+justify-content: flex-start;
+} */
+/* Container for the intrests section that uses flex to organise into columns and justify the sections */
+.intContainer{ 
+
+display: flex;
+flex-direction:row;
+justify-content: center;
+   
+
+}
+
+
+#int1 p{
+
+
+  
+background-color:#e8e8c8;
+border-style: solid;
+ border-width: .5px;
+ 
+
+} 
+#int2 p{
+
+
+  
+background-color:#e8e8c8;
+border-style: solid;
+ border-width: .5px
+}
+#int3 p{
+ 
+
+background-color:#e8e8c8;
+border-style: solid;
+ border-width: .5px
+}
+
+#int4 p{
+
+
+background-color:#e8e8c8;
+border-style: solid;
+border-width: .5px
+} */
+/* Media Query that changes keyskills to blue on a screen of 768px or less
+@media (max-width: 768px) {
+  #keyskills {
+    height:100px;
+    min-height:100px;
+    color:blue;
+  }
+  .header {
+    height:30vh;
+    color:red;
+  }
+  h1 {
+    font-size:24px;
+  }
+}
