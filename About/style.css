@@ -1,0 +1,48 @@
+body{
+	margin:0px;
+	font-family:Helvetica;
+	color:white;
+	background:#8e44ad;	
+	line-height:1.5;
+}
+#header, #main, #footer{
+	display:flex;
+}
+#header{
+	background:#8e44ad;
+	font-size:200%;
+}
+#main{
+	min-height:600px;
+	background:#9b59b6;
+	font-size:150%;
+}
+#header1{
+	flex:2;	
+	text-align:center;	
+}
+.link,.foot{
+	flex:3;
+	text-align:center;	
+}
+#header2{
+	display:flex;
+	flex:10;	
+	align-items:center;
+}
+#sidebar{
+	flex:2;
+	padding:5%;
+}
+#content{
+	flex:10;
+	padding:5%;
+}
+a{
+	color:white;
+}
+input,textarea{
+	font-size:50pt;
+	width:100%;
+	height:100px;
+}
