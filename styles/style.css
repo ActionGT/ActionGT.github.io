@@ -10,7 +10,7 @@ font-family: Georgia;
 }
 
 body {
-background: beige;
+background: rgb(251, 251, 247);
 text-align: center;
 }
 #italics {
@@ -37,11 +37,11 @@ color: red;
 .photo1{
   
 }
-/* #interests {
+#interests {
 
 color:red;
 justify-content: flex-start;
-} */
+}
 /* Container for the intrests section that uses flex to organise into columns and justify the sections */
 .intContainer{ 
 
@@ -53,7 +53,7 @@ justify-content: center;
 }
 
 
-#int1 p{
+#int1 {
 
 
   
@@ -63,7 +63,7 @@ border-style: solid;
  
 
 } 
-#int2 p{
+#int2 {
 
 
   
@@ -71,7 +71,7 @@ background-color:#e8e8c8;
 border-style: solid;
  border-width: .5px
 }
-#int3 p{
+#int3 {
  
 
 background-color:#e8e8c8;
@@ -79,7 +79,7 @@ border-style: solid;
  border-width: .5px
 }
 
-#int4 p{
+#int4 {
 
 
 background-color:#e8e8c8;
