@@ -43,7 +43,7 @@ export default function Header() {
         className={`${
           isScrolled ? "headerShow" : ""
         } w-full fixed top-0 z-50 transition-all duration-500`}
-        style={{ backgroundColor: isScrolled ? "#fff" : "transparent",
+        style={{ backgroundColor: isScrolled ? "#00000" : "transparent",
         boxShadow: isScrolled ? "#48AFDE -10px 25px 50px 10px" : "none"
       }}
       >
@@ -75,8 +75,8 @@ export default function Header() {
               )}
               <a
                 className={`menu-item ${
-                  selectedIndex1 === 0 ? "text-black" : ""
-                } text-[#666d47] group-hover:text-black`}
+                  selectedIndex1 === 0 ? "text-white" : ""
+                } text-[#666d47] group-hover:text-lightBlue`}
                 href="/#home"
                 onClick={() => setSelectedIndex1(0)}
               >
@@ -91,7 +91,7 @@ export default function Header() {
               )}
               <a
                 className={`menu-item ${
-                  selectedIndex1 === 1 ? "text-black" : ""
+                  selectedIndex1 === 1 ? "text-white" : ""
                 } text-[#666d47] group-hover:text-black`}
                 href="/#portfolio"
                 onClick={() => setSelectedIndex1(1)}
@@ -107,7 +107,7 @@ export default function Header() {
               )}
               <a
                 className={`menu-item ${
-                  selectedIndex1 === 2 ? "text-black" : ""
+                  selectedIndex1 === 2 ? "text-white" : ""
                 } text-[#666d47] group-hover:text-black`}
                 href="/#about-me-component"
                 onClick={() => setSelectedIndex1(2)}

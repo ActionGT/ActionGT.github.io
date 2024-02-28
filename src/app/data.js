@@ -6,7 +6,7 @@ export const AboutData = [
     title: "UI / UX Designer",
     img: "/first.svg",
     array: [
-      "Information Architecture",
+      "Spline 3D",
       "Pen and Paper",
       "Adobe Photoshop",
       "Adobe Illustrator",
@@ -26,7 +26,7 @@ export const AboutData = [
       "NextJS",
       "TailwindCSS",
       "Bootstrap",
-      "REST API / GraphQL",
+      "VueJS",
     ],
   },
   {
@@ -34,13 +34,13 @@ export const AboutData = [
     title: "Back-end Developer",
     img: "/third.svg",
     array: [
-      "NodeJS / Express.js",
-      "MongoDB / MySQL / MSSQL",
+      "NodeJS ",
+      " MySQL",
       "Next.js (API)",
-      "PHP",
-      "WordPress Theme Dev",
-      "WordPress Plugin Dev.",
-      "ASP (Once upon a time)",
+      "Java",
+      "Python",
+      "C# / .NET Core",
+       
     ],
   },
   {
@@ -59,16 +59,15 @@ export const AboutData = [
   },
   {
     count: 5,
-    title: "CMS and Headless CMS",
+    title: "Music Production",
     img: "/fifth.svg",
     array: [
-      "Contentful",
-      "GraphCMS",
-      "Strapi",
-      "WordPress (Gutenberg)",
-      "Directus",
-      "Sanity",
-      "SiteBaan (My Own)",
+      "Ableton Live",
+      "Arturia V Collection",
+      "Native Instruments Komplete 13",
+      "Xfer Serum ",
+      "Waves Plugins",
+    
     ],
   },
   {
