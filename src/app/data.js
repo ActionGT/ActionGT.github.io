@@ -6,24 +6,22 @@ export const AboutData = [
     title: "UI / UX Designer",
     img: "/first.svg",
     array: [
-      "Spline 3D",
-      "Pen and Paper",
-      "Adobe Photoshop",
-      "Adobe Illustrator",
+      "Spline3D",
       "Figma",
       "Framer",
-      "Typography / Spacing / ...",
+      "Typography",
     ],
   },
+
+
   {
     count: 2,
     title: "Front-end Developer",
-    img: "/second.svg",
+    img: "/second.svg", 
     array: [
-      "HTML / CSS3",
-      "javaScript (ES6)",
+      "HTML/CSS3",
+      "javaScript(ES6)",
       "ReactJS",
-      "NextJS",
       "TailwindCSS",
       "Bootstrap",
       "VueJS",
@@ -31,12 +29,11 @@ export const AboutData = [
   },
   {
     count: 3,
-    title: "Back-end Developer",
+    title: "Back-end",
     img: "/third.svg",
     array: [
-      "NodeJS ",
+      
       " MySQL",
-      "Next.js (API)",
       "Java",
       "Python",
       "C# / .NET Core",
@@ -45,16 +42,13 @@ export const AboutData = [
   },
   {
     count: 4,
-    title: "DevOps and Admin",
+    title: "Frameworks and Servers",
     img: "/fourth.svg",
     array: [
-      "Docker / CI CD",
-      "Apache / Nginx",
-      "CentOS / Ubuntu",
-      "Windows Server / IIS",
-      "Mail Servers / DNS Servers",
-      "Firewalls / Security",
-      "VMWare ESXi",
+      "NodeJS",
+      "Next.js",
+      "VueJS/Nuxt.js",
+      "Django/Flask",
     ],
   },
   {
@@ -62,26 +56,23 @@ export const AboutData = [
     title: "Music Production",
     img: "/fifth.svg",
     array: [
-      "Ableton Live",
-      "Arturia V Collection",
-      "Native Instruments Komplete 13",
-      "Xfer Serum ",
-      "Waves Plugins",
+      "Ableton",
+      "Arturia",
+      "NI Komplete",
+     
     
     ],
   },
   {
     count: 6,
     title: "Tools and Things",
-    img: "/sisxth.svg",
+    img: "/sixth.svg",
     array: [
       "VSCode",
-      "Git / Github",
-      "Bash / Powershell",
-      "NPM / Yarn",
-      "Plesk Control Panel",
-      "Vercel / Stormkit / Netlify",
-      "Postman / Insomnia",
+      "Git/Github",
+      "Bash/Powershell",
+      "NPM/Yarn",
+      "Vercel",
     ],
   },
 ];
