@@ -6,7 +6,7 @@ import Footer from "./components/Footer/Footer";
 import Home from "./components/Home/HomeComponent";
 import About from './components/About/AboutMe';
 import Portfolio from './components/Portfolio/Portfolio';
-
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const poppins = localFont({
   src: [
@@ -40,8 +40,7 @@ export default function RootLayout({ children }) {
       <Header/>
       <Home/>
       {children}
-      {/* <About/>  */}
-       {/* <Portfolio/> */}
+   
      
       <Footer/> 
      
