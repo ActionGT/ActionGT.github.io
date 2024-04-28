@@ -11,7 +11,6 @@ import About from './components/About/AboutMe';
 import { Hind } from "next/font/google";
 import mySlider from './components/SliderCard/MySlider';
 import SliderCard from "./components/SliderCard/sliderCard";
-import ComputersCanvas from "./components/Portfolio/Computers";
 import { Canvas } from "@react-three/fiber";
 
 
