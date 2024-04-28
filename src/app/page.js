@@ -24,7 +24,7 @@ const hind = Hind({
 export default function Site(){
   return(
     <main className=" min-h-screen relative">
-       {/* <HomeComponent/> */}
+       <HomeComponent/>
      
           <About/> 
        <Portfolio/>

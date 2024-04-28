@@ -58,17 +58,17 @@ export default function AboutMe() {
       
       <div
         id="about"
-        className="bg-[#2c3e50] ppt-[250px]  h-full w-full    pb-[100px] lg:h-[600px] "
+        className="bg-[#2c3e50] ppt-[250px]  h-[full] w-full    pb-[100px] lg:h-[600px] "
       >
         <div className="container m-auto ">
           
-          <h1 className="absolute landscape:pt-[10px] inset-x-10 top-0 h-26 text-[68px] w-[80%]  overflow-hidden lg:top-[50px] lg:text-center  lg:text-[180px] md:left-30 lg:pl-[200px] lg:pt-[200px]  text-[#bdc3c7]">
+          {/* <h1 className="absolute landscape:pt-[10px] inset-x-10 top-0 h-26 text-[68px] w-[80%]  overflow-hidden lg:top-[50px] lg:text-center  lg:text-[180px] md:left-30 lg:pl-[200px] lg:pt-[200px]  text-[#bdc3c7]">
+            About Me
+          </h1> */}
+          <h1 className=" absolute  lg:text-center text-4xl h-[50px] mb-[650px] text-[#a3aab1]    lg:h-[450px] md:px-24  px-5 lg:pl-[350px] lg:pr-[500px]">
             About Me
           </h1>
-          <h1 className=" absolute  lg:text-center text-4xl h-[500px]  text-[#a3aab1]    lg:h-[450px] md:px-24  px-5 lg:pl-[350px] lg:pr-[500px]">
-            About My Self
-          </h1>
-          <h4 className=" relative h-[200px] inset-x-4 bottom-[80px] w-full font-[300] lg:text-center lg:pr-[500px]  lg:h-[150px] lg:pl-[350px] md:w-3/4  font-recoleta text-[#f8fdff] text-2xl mb-10 px-5 md:px-24">
+          <h4 className=" relative h-[30px] inset-x-4 bottom-[250px] w-full font-[300] lg:text-center lg:pr-[500px]  lg:h-[150px] lg:pl-[350px] md:w-3/4  font-recoleta text-[#f8fdff] text-2xl mb-10 px-5 md:px-24">
             A love of tech meets creativity.
           </h4>
           <section className=" absolute  h-[600px]  pt-40    px-5    md:px-24">

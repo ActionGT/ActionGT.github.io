@@ -112,7 +112,7 @@ export default function DiagDraw({
                   <div className="inline-block relative">
                     <a
                       target="blank"
-                      href="/#about-me-component"
+                      href="/#about"
                       onClick={() => {
                         setSelectedIndex1(2);
                         setIsOpen(false);

@@ -3,10 +3,10 @@ import localFont from "next/font/local";
 import './globals.css'
 import Header from "../app/components/Header/Header";
 import Footer from "./components/Footer/Footer";
-import Home from "./components/Home/HomeComponent";
-import About from './components/About/AboutMe';
-import Portfolio from './components/Portfolio/Portfolio';
-import { SpeedInsights } from "@vercel/speed-insights/next"
+// import Home from "./components/Home/HomeComponent";
+// import About from './components/About/AboutMe';
+// import Portfolio from './components/Portfolio/Portfolio';
+
 
 const poppins = localFont({
   src: [
@@ -38,7 +38,7 @@ export default function RootLayout({ children }) {
       
       
       <Header/>
-      <Home/>
+   
       {children}
    
      

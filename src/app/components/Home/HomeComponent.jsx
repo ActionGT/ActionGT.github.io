@@ -1,13 +1,13 @@
 "use client";
 import React, { useEffect, useRef } from "react";
-import Slider from "react-slick";
-import { Canvas } from "@react-three/fiber";
+// import Slider from "react-slick";
+// import { Canvas } from "@react-three/fiber";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Raleway } from "next/font/google";
-import Image from "next/image";
+// import Image from "next/image";
 import Spline from "@splinetool/react-spline";
-import Typewriter from "typewriter-effect";
+// import Typewriter from "typewriter-effect";
 
 
 //import useThreeScene from "../Animations/threeTest";
