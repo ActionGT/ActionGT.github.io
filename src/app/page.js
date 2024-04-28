@@ -9,9 +9,9 @@ import About from './components/About/AboutMe';
 // import Header from './components/Header/Header';
 // import Test from "./components/About/TestTail"
 import { Hind } from "next/font/google";
-import mySlider from './components/SliderCard/MySlider';
-import SliderCard from "./components/SliderCard/sliderCard";
-import { Canvas } from "@react-three/fiber";
+// import mySlider from './components/SliderCard/MySlider';
+// import SliderCard from "./components/SliderCard/sliderCard";
+// import { Canvas } from "@react-three/fiber";
 
 
 const hind = Hind({
