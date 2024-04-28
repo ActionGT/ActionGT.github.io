@@ -1,13 +1,18 @@
 "use client";
 import Image from 'next/image'
 import HomeComponent from './components/Home/HomeComponent';
- import Portfolio from './components/Portfolio/Portfolio';
+import Portfolio from './components/Portfolio/Portfolio';
+// import Port3D from './components/Portfolio/Port3D';
 import About from './components/About/AboutMe';
-import Game from './components/About/GameMain';
-import Scene from './components/Home/HomeTestScreen';
+// import Game from './components/Game/GameMain';
+// import UiScene from './components/Home/HomeTestScreen';
 // import Header from './components/Header/Header';
-import Test from "./components/About/TestTail"
+// import Test from "./components/About/TestTail"
 import { Hind } from "next/font/google";
+import mySlider from './components/SliderCard/MySlider';
+import SliderCard from "./components/SliderCard/sliderCard";
+import ComputersCanvas from "./components/Portfolio/Computers";
+import { Canvas } from "@react-three/fiber";
 
 
 const hind = Hind({
@@ -15,21 +20,30 @@ const hind = Hind({
   weight: ["300", "400", "500", "600", "700"],
 });
 
-export default function Home() {
-  return (
+
+
+export default function Site(){
+  return(
     <main className=" min-h-screen relative">
-      {/* <HomeComponent/> */}
-       
+       {/* <HomeComponent/> */}
+     
+          <About/> 
        <Portfolio/>
-       {/* <About/>  */}
+   {/* <UiScene/> 
+   <ComputersCanvas/>  */}
+          
        {/* <Test/>  */}
 
-       {/* <Game/> */}
-     
-   
-      
-   
-   
+       {/* <Port3D/> */}
     </main>
+
+       
+       
+    
+       
+    
+
+
+    
   )
 }

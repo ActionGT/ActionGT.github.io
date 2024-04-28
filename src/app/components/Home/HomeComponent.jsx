@@ -106,22 +106,12 @@ export default function HomeComponent() {
 
       <div
         id="home"
-        style={{
-          // backgroundImage: "linear-gradient(to right,white 15%, #97bdde 115%)",
-          // backgroundImage: "linear-gradient(to right,white 15%, #97bdde 115%)"
+        className="bg-[#ecf0f1] h-[750px] w-[400px]   lg:h-[100%]  lg:w-[100%]"
+      
 
-          // backgroundImage: `url("https://www.transparenttextures.com/patterns/axiom-pattern.png")`,
-          // // backgroundColor: "#7dc0d1",
-          backgroundColor: "#000000", //color: "#000000",
-          minHeight: "500px",
-          maxHeight: "1200px",
-          height: "100%",
-          width: "100%",
-          
-        }}
       >
           <Spline 
-        scene="https://prod.spline.design/hDWyFgCqKa11gYrg/scene.splinecode"
+        scene="https://prod.spline.design/3gQ8LsPr-eKOrkpR/scene.splinecode"
         />
         
      

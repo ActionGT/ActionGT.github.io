@@ -166,3 +166,18 @@ export default function AboutMe() {
   </section>
   );
 }
+
+
+<div className={`w-16 h-16 sm:w-10 sm:h-10 invisible lg:w-16 lg:h-16 ${
+  selectedIndex === index ? "visible" : ""
+}`}>
+  {selectedIndex === index && (
+    <ul
+      className={`${hind.className} font-[100] list-disc text-[#47626D] lg:ml-10 text-base lg:text- transition duration-500 transform opacity-100 undefined undefined`}
+    >
+      {mapData.array.map((obj) => (
+        <li key={obj} className="mb-[-8px] h-6">{obj}</li>
+      ))}
+    </ul>
+  )}
+</div>

@@ -86,13 +86,14 @@ export const DataArray = [
     des: "I have made this project in 2023  to show thousands of students all over the world  how to make Reactjs/Nextjs portfolio. A portfolio website that will enable you to showcase your projects to your client or your employer The design of this portfolio was taken from a friend. It was carefully and professionally design to work in all devices",
     des1: "This project was made using, Ractjs, Nextjs, NodeMailer  and many more!",
     images: ["/portfolioimage.png", "/nextportfolio1.png"],
+    threeD: ["https://prod.spline.design/nokjgjesu1AHhWj6/scene.splinecode"],
   },
   {
     title: "Personal Portfolio Website Using Reactjs",
     name: "Ultimate ReactJs portfolio",
     des: "I have made this project in 2022  to show thousands of students all over the world  how to make Reactjs portfolio.",
     des1: "This project was made using, Ractjs, Nextjs, Expressjs, Nodejs, Rxjs Bootsrap and many more!",
-    images: ["/reactportfolio.png"],
+    images: ["/3dhello.png"],
   },
   {
     title: "Management Consulting Company Web Design",

@@ -55,26 +55,28 @@ export default function AboutMe() {
 
   return (
     <React.Fragment>
+      
       <div
-        id="about-me-component"
-        className="bg-[#2c3e50] ppt-[250px]  relative h-162 w-162   mt-1  pb-[100px] lg:pb-[600px] lg:h-[800px]"
+        id="about"
+        className="bg-[#2c3e50] ppt-[250px]  h-full w-full    pb-[100px] lg:h-[600px] "
       >
         <div className="container m-auto ">
-          <h1 className="absolute inset-x-10 top-0 h-26 text-[68px] w-[80%]  overflow-hidden   lg:text-[140px] md:left-30   text-[#bdc3c7]">
+          
+          <h1 className="absolute landscape:pt-[10px] inset-x-10 top-0 h-26 text-[68px] w-[80%]  overflow-hidden lg:top-[50px] lg:text-center  lg:text-[180px] md:left-30 lg:pl-[200px] lg:pt-[200px]  text-[#bdc3c7]">
             About Me
           </h1>
-          <h1 className=" absolute text-4xl  h-[500px] bottom-[170px] text-[#a3aab1]  -mt-80 lg:left-0  lg:h-[450px] md:px-24 px-5">
+          <h1 className=" absolute  lg:text-center text-4xl h-[500px]  text-[#a3aab1]    lg:h-[450px] md:px-24  px-5 lg:pl-[350px] lg:pr-[500px]">
             About My Self
           </h1>
-          <h4 className=" relative h-[200px] inset-x-4 bottom-[80px] w-full font-[300]   lg:h-[450px] lg:left-0 md:w-3/4 lg:w-2/3 xl:w-1/2 font-recoleta text-[#f8fdff] text-2xl mb-10 px-5 md:px-24">
+          <h4 className=" relative h-[200px] inset-x-4 bottom-[80px] w-full font-[300] lg:text-center lg:pr-[500px]  lg:h-[150px] lg:pl-[350px] md:w-3/4  font-recoleta text-[#f8fdff] text-2xl mb-10 px-5 md:px-24">
             A love of tech meets creativity.
           </h4>
-          <section className=" absolute  h-[600px]  pt-40    px-5 lg:flex lg:flex-row  md:px-24">
+          <section className=" absolute  h-[600px]  pt-40    px-5    md:px-24">
             <p
-              className={`w-full lg:w-1/3 text-[#ffffff] mr-0 mb-5  lg:mr-4 font-[200] ${hind.className}`}
+              className={`w-full  text-[#ffffff] landscape:pt-[100px]   lg:text-center  mr-0 mb-5  font-[200] ${hind.className}`}
             >
               {" "}
-              Lorem ipsum dolor sit amet. Et excepturi assumenda non vitae
+              Top Para Lorem ipsum dolor sit amet. Et excepturi assumenda non vitae
               molestiae hic ducimus dolores et fugiat atque vel doloremque alias
               aut quibusdam tempore eum galisum ducimus. Et fuga vitae sit enim
               internos aut soluta facilis est quae provident. Nam itaque nobis
@@ -82,20 +84,20 @@ export default function AboutMe() {
               nihil eaque est saepe dolores ut nemo omnis.
             </p>
             <p
-              className={`w-full lg:w-1/3 text-[#ffffff] mr-0 mb-5  lg:mr-4 font-[200] ${hind.className}`}
+              className={`  text-[#ffffff] mr-0 mb-5 lg:text-center   font-[200] ${hind.className}`}
             >
               {" "}
-              Et fuga vitae sit enim internos aut soluta facilis est quae
+              Mid Para Et fuga vitae sit enim internos aut soluta facilis est quae
               provident. Nam itaque nobis et iure corporis qui quasi omnis. Et
               reiciendis dignissimos est nihil eaque est saepe dolores ut nemo
               omnis. Et fuga vitae sit enim internos aut soluta facilis est quae
-              provident.
+              
             </p>
             <p
-              className={`w-full lg:w-1/3 text-[#ffffff] mr-0 mb-5  lg:mr-4 font-[200] ${hind.className}`}
+              className={` w-full  text-[#ffffff] mr-0 mb-5  lg:pr-[500px] lg:text-center   font-[200] ${hind.className}`}
             >
               {" "}
-              Et fuga vitae sit enim internos aut soluta facilis est quae
+              Lower Para Et fuga vitae sit enim internos aut soluta facilis est quae
               provident. Nam itaque nobis et iure corporis qui quasi omnis. Et
               reiciendis dignissimos est nihil eaque est saepe dolores ut nemo
               omnis.
@@ -111,15 +113,15 @@ export default function AboutMe() {
         }}
         className="lg:-mt-60"
       >
-        <section className="container flex  flex-col m-auto px-5 transform translate-y-[30px] lg:flex-col">
+        <section className="container flex  flex-col m-auto px-5 transform translate-y-[-5px] lg:translate-y-[30px] lg:flex-col">
           <div className=" container m-auto">
-            <div className="grid grid-cols-2 lg:grid-cols-6 gap-12">
+            <div className="grid grid-cols-2 lg:grid-cols-6 gap-12 ">
               {AboutData.map((item, index) => (
                 <a
                   key={index}
                   onClick={() => handleCardClick(item, index)}
                   style={{ boxShadow: "#7f8c8d -5px  10px 20px 0px" }}
-                  className={`relative cursor-pointer transition-all transform duration-300 group rounded-xl center p-6 lg:p-10 flex flex-col justify-center  items-center ${
+                  className={`relative cursor-pointer  transition-all transform duration-300 group rounded-xl center p-6 landscape:p-20 lg:p-10 flex flex-col justify-center  items-center ${
                     selectedIndex == index
                       ? "    bg-[#7f8c8d]  translate-y-[-30px] scale-110  visible"
                       : "hover:bg-[#bdc3c7] hover:shadow-xl  "
@@ -137,7 +139,7 @@ export default function AboutMe() {
                         {mapData.array.map((obj) => (
                           <li
                             key={obj}
-                            className=" h-9 text-[14px] max-h-[33px]  "
+                            className=" h-9 text-[14px] max-h-[33px]   "
                           >
                             {obj}
                           </li>
