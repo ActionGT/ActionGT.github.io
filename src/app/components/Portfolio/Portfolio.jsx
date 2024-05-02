@@ -1,7 +1,7 @@
 import React from "react";
 import { Hind } from "next/font/google";
 //import MySlider from "../OrigSliderCard/MySlider";
- import MySlider from "../SliderCard/MySlider";
+//  import MySlider from "../SliderCard/MySlider";
  import Spline from '@splinetool/react-spline';
 //  import Scene from './Port3D';
 
