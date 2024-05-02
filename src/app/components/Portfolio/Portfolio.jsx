@@ -1,7 +1,7 @@
 import React from "react";
 import { Hind } from "next/font/google";
 //import MySlider from "../OrigSliderCard/MySlider";
-//  import MySlider from "../SliderCard/MySlider";
+ import MySlider from "../SliderCard/MySlider";
  import Spline from '@splinetool/react-spline';
 //  import Scene from './Port3D';
 
@@ -55,7 +55,7 @@ const hind = Hind({
       {/*  bg-[#ecf0f1] */}
       <div
         id="portfolio"
-      className="  bg-[#ecf0f1]  flex flex-wrap content-center pt-[120px] lg:h-[100%]  lg:w-[100%]   " 
+      className="  bg-[#ecf0f1]  flex flex-wrap content-center h-[100%] pt-[120px] lg:h-[100%]  lg:w-[100%]   " 
       
       >
       
@@ -96,7 +96,7 @@ const hind = Hind({
               </p>
        
           </div>
-          <div className="relative w-[390px] landscape:w-[100%] lg:w-[100%] h-[500px]  bg-[#ffffff] lg:h-[1000px]    ">
+          <div className="relative w-[100%] landscape:w-[100%] lg:w-[100%] h-[500px]  bg-[#bf3b3b] lg:h-[1000px]    ">
       <Spline scene="https://prod.spline.design/jAn7JG75oyx2eNA9/scene.splinecode" />
       </div>
        

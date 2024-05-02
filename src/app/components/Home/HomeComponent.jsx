@@ -106,7 +106,7 @@ export default function HomeComponent() {
 
       <div
         id="home"
-        className="bg-[#ecf0f1] h-[750px] w-[400px]   lg:h-[100%]  lg:w-[100%]"
+        className="bg-[#ecf0f1] h-[700px] w-[100%]   lg:h-[100%]  lg:w-[100%]"
       
 
       >

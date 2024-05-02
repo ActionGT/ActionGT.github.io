@@ -13,6 +13,8 @@ import { Hind } from "next/font/google";
 // import SliderCard from "./components/SliderCard/sliderCard";
 // import { Canvas } from "@react-three/fiber";
 
+import Test from './components/Test3D/TestPerf';
+
 
 const hind = Hind({
   subsets: ["latin"],
@@ -23,17 +25,18 @@ const hind = Hind({
 
 export default function Site(){
   return(
-    <main className=" min-h-screen relative">
-       <HomeComponent/>
+    <main className=" min-h-screen relative w-full ">
+       {/* <HomeComponent/> */}
      
-          <About/> 
-       <Portfolio/>
+          {/* <About/> 
+       <Portfolio/> */}
    {/* <UiScene/> 
    <ComputersCanvas/>  */}
           
-       {/* <Test/>  */}
+      <Test/> 
 
        {/* <Port3D/> */}
+   
     </main>
 
        

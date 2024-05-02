@@ -58,7 +58,7 @@ export default function AboutMe() {
       
       <div
         id="about"
-        className="bg-[#2c3e50] ppt-[250px]  h-[full] w-full    pb-[100px] lg:h-[600px] "
+        className="bg-[#2c3e50] ppt-[250px]  h-full w-[100%]    pb-[100px] lg:h-[600px] "
       >
         <div className="container m-auto ">
           

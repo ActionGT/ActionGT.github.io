@@ -42,7 +42,7 @@ export default function Header() {
       <header
         className={`${
           isScrolled ? "headerShow" : ""
-        } w-full fixed top-0 z-50 transition-all duration-500`}
+        } w-[100%] fixed top-0 z-50 transition-all duration-500`}
         style={{ backgroundColor: isScrolled ? "rgba(0, 0, 0, 0.8)" : "transparent",
         boxShadow: isScrolled ? "#ecf0f1 -10px 25px 50px 10px" : "none"
       }}
